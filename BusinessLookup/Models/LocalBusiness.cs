@@ -6,6 +6,8 @@ namespace BusinessLookup.Models
 {
     public class LocalBusiness
     {
+        [Key]
+        [Required]
         public int LocalBusinessId { get; set; }
 
         [Required]

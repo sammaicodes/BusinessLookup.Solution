@@ -11,11 +11,11 @@ namespace BusinessLookup.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
-  public class LocalBusinesssController : ControllerBase
+  public class LocalBusinessesController : ControllerBase
   {
     private readonly BusinessLookupContext _db;
 
-    public LocalBusinesssController(BusinessLookupContext db)
+    public LocalBusinessesController(BusinessLookupContext db)
     {
       _db = db;
     }

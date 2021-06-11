@@ -18,7 +18,7 @@ namespace BusinessLookup.Models
           new LocalBusiness { LocalBusinessId = 2, BusinessType = "Bar", BusinessName = "Chowder Tavern", Review = "Its a must. All their drinks are super different. I had the clammy blody mary and it was one of the best I've had", RateReview = 4 },
           new LocalBusiness { LocalBusinessId = 3, BusinessType = "Flowe Shop", BusinessName = "Happy Orchid", Review = "They have a wide veriety of flowers and they also offer classes with a pretty awesome instructor", RateReview = 5 },
           new LocalBusiness { LocalBusinessId = 4, BusinessType = "Hardware Shop", BusinessName = "Crazy Hammer", Review = "Its your regular well-stock hardware store. But their staff is limited and hard to get help.", RateReview = 3 },
-          new LocalBusiness { LocalBusinessId = 5, BusinessType = "Grocery Shop", BusinessName = "Sour Piv   ", Review = "You have to visit for yourself. The food was really good in general. The valleys were breathtaking...", RateReview = 5 }
+          new LocalBusiness { LocalBusinessId = 5, BusinessType = "Grocery Shop", BusinessName = "Freemont", Review = "Even though its a small neighborhood store, it is very well stocked, you can find just about anything", RateReview = 5 }
         );
     }
     public DbSet<LocalBusiness> LocalBusinesses { get; set; }

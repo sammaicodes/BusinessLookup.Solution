@@ -50,7 +50,8 @@ _In brief, this project allows a user use this API and all its CRUD functionalit
 
 ## Sample Query
     
-* _To search through a specific property follow the following format in the browser: http://localhost:<port number>/api/<>/?RateReview=5_
+* _To search through a specific property follow the following format in the browser: http://localhost:5000/api/localBusinesses/?RateReview=5_
+* _Response example should return all instances where the RateReview is 5_
 ## Known Bugs
 
 * _Nothing yet_

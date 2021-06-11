@@ -1,4 +1,4 @@
-  # Local Business Finder
+# Local Business Finder
 
 ####  A Project Exploring Basic APIs With MVC C#, Entity, swagger, and MySQL Workbench
 

@@ -27,6 +27,7 @@ _In brief, this project allows a user use this API and all its CRUD functionalit
 * _An account with GitHub_
 * _MySQL Workbench_
 * _A command line interface (Terminal or GitBash) to run and interact with the application._
+* _Swagger can be installed by following instructions in https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-5.0&tabs=visual-studio_
 
 ## Installation Instruction
 1.  
@@ -45,7 +46,11 @@ _In brief, this project allows a user use this API and all its CRUD functionalit
     * _To begin using the MVC application, run the command `$dotnet run`_
     * _To see the raw data via the browser: 'localhost:5000/api/localBusinesses'_
     * _To see the data in json format or to explore CRUD functionality, use postman: 'localhost:5000/api/localBusinesses'_
+    * _To see all the endpoints and CRUD functionality; visit 'http://localhost:5000/swagger/' (make sure the application is running)_
 
+## Sample Query
+    
+* _To search through a specific property follow the following format in the browser: http://localhost:<port number>/api/<>/?RateReview=5_
 ## Known Bugs
 
 * _Nothing yet_
